@@ -12,5 +12,5 @@ for (let i = 0; i < 10000; i++) {
     }
 }
 let probability = count / 100;
-probability = probability.toFixed()
+probability = probability.toFixed(2)
 document.querySelector("#output").innerHTML = probability.toString() + "%";

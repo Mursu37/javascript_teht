@@ -6,6 +6,7 @@ second.innerHTML = "Second item";
 third.innerHTML = "Third item";
 
 const target = document.getElementById("target");
+target.className = "my-list";
 target.appendChild(first);
 target.appendChild(second);
 target.appendChild(third);
